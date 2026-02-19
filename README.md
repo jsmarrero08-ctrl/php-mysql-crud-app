@@ -15,13 +15,11 @@ A simple CRUD web application built with PHP and MySQL. The project demonstrates
  HTML/CSS
 
  Setup (Local)
-1. Place the project folder inside your server directory (XAMPP/WAMP `htdocs`).
-2. Import or create the database tables in MySQL.
-3. Create `Web_Config.php` using the template:
-    Copy `Web_Config.example.php`
-    Rename it to `Web_Config.php`
-    Add your local credentials
-4. Run the project in your browser.
-
+1. Place the folder in your local server (e.g., XAMPP htdocs).
+2. Import SQL schema in phpMyAdmin.
+3. Copy Web_Config.example.php → Rename to Web_Config.php
+4. Add your credentials.
+5. Open in browser.
+   
  Notes
  Web_Config.php is intentionally ignored to avoid uploading database credentials.
